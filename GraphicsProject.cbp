@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Sudoku" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/GraphicsProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GraphicsProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O2" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add library="lib/libgraphics.a" />
+			<Add library="lib/libgraphicsd.a" />
+			<Add library="lib/libsdl_ttf.a" />
+			<Add library="lib/libSDL.dll.a" />
+			<Add library="lib/libSDLmain.a" />
+			<Add directory="lib" />
+		</Linker>
+		<Unit filename="GameCore.cpp" />
+		<Unit filename="GameCore.hpp" />
+		<Unit filename="MessageBox.cpp" />
+		<Unit filename="MessageBox.hpp" />
+		<Unit filename="SudokuNumberBox.cpp" />
+		<Unit filename="SudokuNumberBox.hpp" />
+		<Unit filename="SudokuWindow.cpp" />
+		<Unit filename="SudokuWindow.hpp" />
+		<Unit filename="W/Application.cpp" />
+		<Unit filename="W/Application.hpp" />
+		<Unit filename="W/Button.cpp" />
+		<Unit filename="W/Button.hpp" />
+		<Unit filename="W/CheckBox.cpp" />
+		<Unit filename="W/CheckBox.hpp" />
+		<Unit filename="W/DropDownList.cpp" />
+		<Unit filename="W/DropDownList.hpp" />
+		<Unit filename="W/Label.cpp" />
+		<Unit filename="W/Label.hpp" />
+		<Unit filename="W/NumberBox.cpp" />
+		<Unit filename="W/NumberBox.hpp" />
+		<Unit filename="W/TextBox.cpp" />
+		<Unit filename="W/TextBox.hpp" />
+		<Unit filename="W/Window.cpp" />
+		<Unit filename="W/Window.hpp" />
+		<Unit filename="W/widget.cpp" />
+		<Unit filename="W/widget.hpp" />
+		<Unit filename="include/graphics.hpp" />
+		<Unit filename="input.txt" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
